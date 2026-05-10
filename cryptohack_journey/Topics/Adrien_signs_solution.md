@@ -119,7 +119,7 @@ That directly tells us the bit.
 
 ---
 
-# 💻 Solver Script
+# Solver Script
 
 ```python
 
@@ -162,7 +162,7 @@ The entire encryption leaks one bit through quadratic residuosity.
 
 ---
 
-# ⚡ Important subtlety
+# Important subtlety
 
 This attack relies on:
 ### $p \equiv 3 \quad(mod 4)$
@@ -178,7 +178,7 @@ then:
 
 ---
 
-# 🔥 What this challenge is teaching
+# What this challenge is teaching
 
 This is basically a lesson about:
 
