@@ -1,0 +1,7 @@
+Uniform distribution is essential in cryptography because it ensures that every possible output from a random number generator has an equal probability of being selected.  This lack of bias is critical for security; if certain values (like cryptographic keys or nonces) are more likely than others, an attacker can exploit this predictability to drastically reduce the effort needed for a brute-force attack. 
+
+In practice, cryptographic systems rely on random data such as keys, salts, and initialization vectors being uniformly distributed across the entire keyspace. For example, an 8-bit key should have all 256 values equally probable. If the distribution is skewed, the effective entropy decreases, weakening the system even if the theoretical key length suggests high security. 
+
+Many cryptographic proofs, such as those for secure stream ciphers, begin with the assumption that the key is drawn from a uniformly random distribution.  This assumption underpins the mathematical guarantee of security. If the key is not uniform—such as when derived from human-chosen passwords, which follow non-uniform patterns—the security guarantees can break down, requiring additional measures like key stretching. 
+
+While true randomness (from physical sources) is ideal, cryptographically secure pseudorandom number generators (CSPRNGs) are designed to produce output that is indistinguishable from a uniform distribution to any feasible adversary, making them suitable for practical use. 

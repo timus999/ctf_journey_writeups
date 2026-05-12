@@ -1,0 +1,7 @@
+A **pseudorandom number generator (PRNG)** is a deterministic algorithm that produces a sequence of numbers that _appear_ random.  It starts with a small, secret input called a **seed** and uses mathematical operations to generate a long stream of pseudorandom output. 
+
+Because the process is deterministic, the same seed will always produce the same sequence. This makes PRNGs efficient and reproducible, which is useful for simulations and testing. However, if the seed is known or predictable, the entire output can be reproduced, making ordinary PRNGs unsuitable for security. 
+
+In cryptography, **Cryptographically Secure PRNGs (CSPRNGs)** are used.  These are designed so that their output is **computationally indistinguishable** from true randomness, even if an attacker knows the algorithm.  They must pass the **next-bit test** meaning you cannot predict the next bit with better than 50% probability and resist **state compromise**, ensuring past and future outputs remain secure even if the internal state is exposed. 
+
+CSPRNGs often combine a strong seed (from a true random source) with cryptographic primitives like hash functions (e.g., SHA-256) or block ciphers (e.g., AES) to ensure unpredictability and security.

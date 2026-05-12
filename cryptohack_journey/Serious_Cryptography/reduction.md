@@ -1,0 +1,5 @@
+In cryptography, a **reduction** is a mathematical proof technique used in **provable security**.  It demonstrates that breaking a cryptographic system is **at least as hard** as solving a well-known, computationally difficult problem (like factoring large integers or computing discrete logarithms). 
+
+The proof works by showing that if an efficient algorithm (an adversary) existed to break the cryptographic scheme, then it could be used as a subroutine to construct another efficient algorithm that solves the hard problem. Since the hard problem is assumed to be intractable, the existence of such an adversary leads to a contradiction, implying the cryptographic scheme is secure under that assumption. 
+
+This method allows cryptographers to base the security of complex systems on the hardness of fundamental problems.

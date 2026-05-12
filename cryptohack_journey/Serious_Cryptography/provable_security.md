@@ -1,0 +1,5 @@
+**Provable security** means a cryptographic system's security is backed by a **mathematical proof**.  It shows that breaking the system is at least as hard as solving a well-known, computationally difficult problem like factoring large integers or computing discrete logarithms. 
+
+This is achieved through a **reduction proof**: if an attacker can break the cryptographic scheme (e.g., decrypt a message without the key), then they can also solve the underlying hard problem. Since the hard problem is assumed to be intractable for efficient algorithms, the scheme is considered secure under that assumption. 
+
+Provable security relies on clearly defined **adversarial models** (what the attacker can do) and **security goals** (e.g., indistinguishability of ciphertexts).  It provides strong theoretical confidence, though it does not protect against side-channel attacks or flaws in implementation.

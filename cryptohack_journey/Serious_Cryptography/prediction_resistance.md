@@ -1,0 +1,5 @@
+**Prediction resistance** (also known as **backward secrecy**, **future secrecy**, or **break-in recovery**) is a security property of a **Deterministic Random Bit Generator (DRBG)**.  It ensures that if an attacker compromises the current internal state of the generator, they **cannot predict future outputs** provided the generator is reseeded with fresh, high-entropy input _after_ the compromise. 
+
+This property is achieved by **reintroducing entropy** into the system through a reseed operation.  Once the DRBG is reseeded with sufficient entropy (e.g., from a hardware entropy source), the new internal state becomes unpredictable, even if the previous state was known. This allows the system to "heal" from a state compromise. 
+
+According to **NIST SP 800-90A**, prediction resistance is not automatic; it requires the explicit use of fresh entropy via reseeding before generating new output.  Systems like **Enhanced NRBGs** (defined in SP 800-90C) inherently provide prediction resistance because they use a live entropy source for every generation request.

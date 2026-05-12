@@ -1,0 +1,5 @@
+**Computational security** means a cryptographic system is secure not because it is impossible to break, but because breaking it is **computationally infeasible** given an adversary's limited resources such as time, processing power, and cost.  It assumes that attackers can only perform a reasonable (polynomial-time) number of operations, even with advanced technology. 
+
+For example, modern algorithms like **AES** or **RSA** are computationally secure.  Cracking a 128-bit AES key by brute force would require trying up to $2^{128}$ combinations an astronomical number that would take billions of years with current technology.
+
+This contrasts with **unconditional (information-theoretic) security**, where a system like the **one-time pad** is secure even against an attacker with _infinite_ computational power.  Computational security is the foundation of most practical cryptography, as it balances strong protection with efficiency and usability.

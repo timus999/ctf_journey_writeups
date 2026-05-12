@@ -1,0 +1,5 @@
+**Heuristic security** refers to the confidence in a cryptographic system based on the **failure of many experts to break it** after extensive analysis, rather than on a formal mathematical proof.  It is also known as **probable security**.
+
+Unlike _provable security_, which relies on reductions to hard mathematical problems, heuristic security assumes a system is secure because it has withstood real-world cryptanalytic efforts over time. For example, widely used hash functions like SHA-2 are considered heuristically secure their design principles have been scrutinized, and no practical attacks have been found, even though there is no absolute proof of their security. 
+
+This approach is common in symmetric cryptography (e.g., block ciphers like AES), where complex designs are evaluated through public competitions and peer review. While not mathematically rigorous, heuristic security is practical and trusted when backed by strong community scrutiny.

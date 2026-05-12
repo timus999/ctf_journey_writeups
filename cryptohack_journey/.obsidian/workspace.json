@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serious_Cryptography/side_channel_attacks.md",
+                "file": "Day 5 and 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "side_channel_attacks"
+              "title": "Day 5 and 6"
             }
           }
         ]
@@ -185,7 +185,25 @@
   },
   "active": "d39ab787dbf259bc",
   "lastOpenFiles": [
+    "Serious_Cryptography/security_margin.md",
     "Serious_Cryptography/Notes.md",
+    "Serious_Cryptography/heuristic_security.md",
+    "Serious_Cryptography/reduction.md",
+    "Day 5 and 6.md",
+    "Crypto Hack Journey.md",
+    "Serious_Cryptography/provable_security.md",
+    "Serious_Cryptography/computational_security.md",
+    "Serious_Cryptography/n_bit_security.md",
+    "Serious_Cryptography/unconditional_security.md",
+    "Serious_Cryptography/quantum_random_number_generator.md",
+    "Serious_Cryptography/prediction_resistance.md",
+    "Serious_Cryptography/backtracking_resistance.md",
+    "Serious_Cryptorgraphy/entropy_pool.md",
+    "Serious_Cryptography/entropy.md",
+    "Serious_Cryptorgraphy/entrophy_pool.md",
+    "Serious_Cryptography/deterministic_random_bit_generator.md",
+    "Serious_Cryptography/pseudorandom_number_generator.md",
+    "Serious_Cryptography/uniform_distribution.md",
     "Serious_Cryptography/side_channel_attacks.md",
     "Serious_Cryptography/tweakable_encryption.md",
     "Serious_Cryptography/full_homomorhpic_encryption.md",
@@ -194,25 +212,7 @@
     "Serious_Cryptography/nonmalleability.md",
     "Serious_Cryptorgraphy/indistinguishability.md",
     "Serious_Cryptorgraphy",
-    "Serious_Cryptography/CCA.md",
-    "Serious_Cryptography/CPA.md",
-    "Serious_Cryptography/perfect_secrecy.md",
-    "Serious_Cryptography/one_time_pad.md",
-    "Serious_Cryptography/mode_of_operation.md",
-    "Serious_Cryptography.md",
-    "Serious_Cryptography/s-box.md",
-    "Serious_Cryptography/substitution_permutatin_network.md",
-    "Serious_Cryptography/confusion.md",
-    "Serious_Cryptography/diffusion.md",
-    "Serious_Cryptography/memory_footprint.md",
-    "Memory Footprint.md",
-    "Day4.md",
     "Serious_Cryptography",
-    "Crypto Hack Journey.md",
-    "Day3.md",
-    "Day 1.md",
-    "Day2.md",
-    "Topics/Adrien_signs_solution.md",
     "Topics"
   ]
 }

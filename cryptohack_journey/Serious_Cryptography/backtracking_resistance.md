@@ -1,0 +1,5 @@
+**Backtracking resistance** (also known as **forward secrecy** in the context of random number generators) is a security property of a **Cryptographically Secure Pseudorandom Number Generator (CSPRNG)**.  It ensures that if an attacker compromises the generator's current internal state, they **cannot reconstruct or determine any previously generated random outputs or past internal states**. 
+
+This is achieved by designing the state update function to be **one-way** (e.g., using a cryptographic hash function or a block cipher in a non-invertible mode).  Even with full knowledge of the current state, the path that led to it is computationally infeasible to reverse. 
+
+For example, NIST SP 800-90A compliant DRBGs like **Hash_DRBG** and **HMAC_DRBG** are designed to be backtracking resistant.  This property is crucial for protecting the secrecy of past cryptographic keys and nonces, even if a system is later breached.

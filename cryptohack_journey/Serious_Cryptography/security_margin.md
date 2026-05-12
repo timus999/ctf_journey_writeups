@@ -1,0 +1,5 @@
+**Security margin** is a measure of how much stronger a cryptographic algorithm is than the best known attacks against it.  It represents the "buffer" between the current state of cryptanalysis and the full strength of the system.
+
+For **iterated ciphers** (those with multiple rounds of processing), it's commonly expressed as the number of unbroken rounds.  For example, if the best attack breaks 7 out of 10 rounds, the security margin is 3 rounds. A larger margin indicates greater confidence that the cipher will remain secure against future advances in cryptanalysis. 
+
+Designers often target a margin of around **25-30%** of the total rounds (e.g., AES-128 has a margin of about 30%).  While a larger margin increases security, it also reduces performance, especially on resource-constrained devices. Ciphers like Simon and Speck have been criticized for having smaller margins, while more conservative designs like ChaCha20 have larger ones.
